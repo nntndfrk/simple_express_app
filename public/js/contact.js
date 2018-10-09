@@ -16,7 +16,7 @@
     data.message = message.value;
     data.email = email.value;
 
-    json = JSON.stringify(data);
+    let json = JSON.stringify(data);
 
     xhr.open("POST", "contact");
     xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");

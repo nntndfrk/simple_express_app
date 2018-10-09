@@ -1,6 +1,4 @@
 (() => {
-  let post;
-
   const heading = document.getElementById("heading");
   const subHeading = document.getElementById("subheading");
   const meta = document.getElementById("meta");
